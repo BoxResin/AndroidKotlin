@@ -1,0 +1,16 @@
+<!-- 테스트용 안드로이드 매니페스트 -->
+<manifest
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	package = "boxresin.android.kotlin">
+
+	<application android:theme = "@style/Theme.AppCompat.Light.NoActionBar">
+		<!-- 테스트 액티비티 -->
+		<activity android:name = ".TestActivity"/>
+
+		<!-- 테스트용 두 번째 액티비티 -->
+		<activity android:name = ".SecondActivity"/>
+
+		<!-- 테스트용 세 번째 액티비티 -->
+		<activity android:name = ".ThirdActivity"/>
+	</application>
+</manifest>
